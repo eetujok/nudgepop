@@ -1,0 +1,103 @@
+.vanilla-theme {
+    max-width: 340px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(76, 206, 159);
+    border-width: 3px;
+    padding: 20px;
+    border-style: solid;
+}
+  .buy-button {
+    background-color: #5c6ac4;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .coupon-code {
+    display: inline-flex;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+    font-family: Inter,sans-serif;
+    padding: 12px 18px;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #222222;
+    background-color: #FFFF;
+    border-style: dashed;
+    border-radius: 0.5em;
+    border-color: rgb(105, 110, 105);
+    border-width: 2px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s,-webkit-box-shadow .2s;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+.button-35 {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #121212;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-family: Inter,sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1;
+  margin-top: 2rem;
+  outline: none;
+  padding: 1rem 2.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s,-webkit-box-shadow .2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-35:hover {
+  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
+
+
+.coupon-code:hover {
+  background: #2eb774;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tippy-content {
+    position: relative;
+    z-index: 1;
+}
+
+.tippy-box {
+    position: relative;
+    background-color: #4cce9f;
+    color: #fff;
+    border-radius: 2em;
+    font-size: 14px;
+    line-height: 1.4;
+    white-space: normal;
+    outline: 0;
+    transition-property: transform, visibility, opacity;
+    max-width: 420px;
+}
+

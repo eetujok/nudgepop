@@ -1,0 +1,8 @@
+field on shopifyShop {
+   coalesce([
+    count(
+      popupEmails
+    ),
+    0
+  ])
+}

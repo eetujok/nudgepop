@@ -1,0 +1,22 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "1f0a79e05dd1cab0927569f2049230b4"
+name = "NudgePop: Exit Popup"
+handle = "nudgepop"
+application_url = "https://seetext-exit-intent.gadget.app/api/shopify/install-or-render"
+embedded = true
+
+[build]
+dev_store_url = "seetext-5.myshopify.com"
+include_config_on_deploy = true
+
+[auth]
+redirect_urls = [
+  "https://seetext-exit-intent.gadget.app/api/connections/auth/shopify/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false
